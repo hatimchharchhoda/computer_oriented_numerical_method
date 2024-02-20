@@ -9,9 +9,9 @@ int fact(int i)
 int main()
 {
     int n,k=1,h;
-    double p,x[10],y[10],c[10],ans=0,mid=1;
     cout<<"enter the no. of element you want to enter : ";
     cin>>n;
+    double p,x[n],y[n],c[n],ans=0,mid=1;
     cout<<"enter the values of x : ";
     for(int i=0; i<n; i++)
         cin>>x[i];
@@ -19,10 +19,8 @@ int main()
     cout<<"enter the values of y : ";
     for(int i=0; i<n; i++)
         cin>>y[i];
-
     cout<<"enter the value of x for which you want to find y : ";
     cin>>p;
-
     if(p<x[(n+1)/2])
     {
         c[0]=y[0];
