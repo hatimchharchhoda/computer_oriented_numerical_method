@@ -10,7 +10,7 @@ int main()
     cin>>l>>u;
     cout<<"enter the value of h : ";
     cin>>h;
-    double x[100],y[1],ans=0;
+    double x[100],y[100],ans=0;
     for(double i=l; i<=u; i+=ch)
     {
         x[len]=i;
