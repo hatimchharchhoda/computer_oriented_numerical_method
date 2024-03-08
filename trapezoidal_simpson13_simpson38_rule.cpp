@@ -11,7 +11,7 @@ int main()
     cout<<"enter the value of h : ";
     cin>>h;
     double x[100],y[100],ans=0;
-    for(double i=l; i<=u; i+=ch)
+    for(double i=l; i<=u; i+=h)
     {
         x[len]=i;
         len++;
