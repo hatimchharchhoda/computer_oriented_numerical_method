@@ -32,4 +32,5 @@ int main()
         ans+=(mult*y[i]/muld);
     }
     cout<<endl<<"value of Y = "<<ans;
+    return 0;
 }
